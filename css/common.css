@@ -1,0 +1,93 @@
+/* 5 */
+@media only screen and (-webkit-device-pixel-ratio: 2) and (max-device-height: 568px) and (min-device-width: 320px) {
+	html {
+		font-size: 16px !important;
+	}
+}
+
+@media only screen and (min-width: 360px) {
+	html {
+		font-size: 19.2px !important;
+	}
+}
+
+/* 6 7 8 */
+@media only screen and (-webkit-device-pixel-ratio: 2) and (max-device-height: 667px) and (min-device-width: 375px) {
+	html {
+		font-size: 20px !important;
+	}
+}
+
+/* x xs 11pro */
+@media only screen and (-webkit-device-pixel-ratio: 3) and (max-device-height: 812px) and (min-device-width: 375px) {
+	html {
+		font-size: 20px !important;
+	}
+}
+
+@media only screen and (min-width: 400px) {
+	html {
+		font-size: 21.33px !important;
+	}
+}
+
+/* Plus */
+@media only screen and (-webkit-device-pixel-ratio: 3) and (max-device-height: 736px) and (min-device-width: 414px) {
+	html {
+		font-size: 22.08px !important;
+	}
+}
+
+/* XR 11 */
+@media only screen and (-webkit-device-pixel-ratio: 2) and (max-device-height: 896px) and (min-device-width: 414px) {
+	html {
+		font-size: 22.08px !important;
+	}
+}
+
+/* xsMax 11proMax */
+@media only screen and (-webkit-device-pixel-ratio: 3) and (max-device-height: 896px) and (min-device-width: 414px) {
+	html {
+		font-size: 22.08px !important;
+	}
+}
+
+@media only screen and (min-width: 480px) {
+	html {
+		font-size: 25.6px !important;
+	}
+}
+
+body {
+	font-size: 14px !important;
+}
+
+[v-cloak] {
+	display: none !important;
+}
+
+input {
+	-webkit-appearance: none;
+}
+
+textarea {
+	-webkit-appearance: none;
+}
+
+* {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+}
+
+i.iconfont {
+	font-size: 20px;
+}
+.item i.iconfont {
+	font-size: 1px;
+}
+.el-card__body > a,
+.el-card__body > a:link,
+.el-card__body > a:active {
+	text-decoration: none;
+	color: #333 !important;
+}
