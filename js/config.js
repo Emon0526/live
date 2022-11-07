@@ -1,5 +1,5 @@
 // 服务器判断
-var baseUrl = "https://api.hclyz.com:81/mf/";
+var baseUrl = "http://api.hclyz.com:81/mf/";
 
 // 获取url参数
 function getUrlParam(name) {
