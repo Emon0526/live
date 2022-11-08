@@ -47,9 +47,7 @@
 					getDetailList() {
 						var a = /^[\u4e00-\u9fa5]{0,}$/;
 						axios.get(baseUrl + this.address).then((res) => {
-							this.DetailList = res.data.zhubo.filter(function (e) {
-								return a.test(e.title);
-							});
+							this.DetailList = res.data.zhubo.filter((e) => a.test(e.title));
 						});
 					},
 				},

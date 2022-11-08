@@ -36,30 +36,30 @@
 		</div>
 		<script>
 			var app = new Vue({
-				el: '#app',
+				el: "#app",
 				data() {
 					return {
 						list: [],
-					}
+					};
 				},
 				methods: {
 					getList() {
-						axios.get(baseUrl + 'json.txt').then((res) => {
-							this.list = res.data.pingtai
-						})
+						axios.get(baseUrl + "json.txt").then((res) => {
+							this.list = res.data.pingtai;
+						});
 					},
 				},
 				beforeCreate() {},
 				created() {},
 				beforeMounted() {},
 				mounted() {
-					this.getList()
+					this.getList();
 				},
 				beforeUpdate() {},
 				update() {},
 				beforeDestroy() {},
 				destroyed() {},
-			})
+			});
 		</script>
 	</body>
 </html>
